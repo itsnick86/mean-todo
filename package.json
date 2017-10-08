@@ -9,6 +9,11 @@
   "author": "Nick Edwards",
   "license": "ISC",
   "dependencies": {
-    "express": "4.16.1"
+    "angular": "^1.6.6",
+    "express": "4.16.1",
+    "mongoose": "4.12.1"
+  },
+  "devDependencies": {
+    "webpack": "3.6.0"
   }
 }

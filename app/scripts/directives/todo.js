@@ -1,5 +1,7 @@
 'use strict';
 
+var require = ('angular');
+
 angular.module('todoListApp')
 .directive('todo', function(){
   return {

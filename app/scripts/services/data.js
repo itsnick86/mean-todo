@@ -1,5 +1,7 @@
 'use strict';
 
+var require = ('angular');
+
 angular.module('todoListApp')
 .service('dataService', function($http) {
   this.getTodos = function(cb) {
